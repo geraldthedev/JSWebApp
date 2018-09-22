@@ -1,5 +1,7 @@
-﻿ReactDOM.render(
-    <h1> "Hello, world!" </h1>,
-    document.getElementById('work')
+﻿const e = React.createElement;
 
+return e(
+    'button',
+    { onClick: () => this.setState({ liked: true})},
+    'Like'
 );
